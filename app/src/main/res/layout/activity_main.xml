@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="平移动画"
+        android:background="@drawable/text_red_bg"
+        android:padding="8dp"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        android:id="@+id/translation_animation"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="缩放动画"
+        android:background="@drawable/text_green_bg"
+        android:padding="8dp"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        android:id="@+id/scale_animation"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="旋转动画"
+        android:background="@drawable/text_blue_bg"
+        android:padding="8dp"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        android:id="@+id/rotation_animation"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="透明度动画"
+        android:background="@drawable/text_black_bg"
+        android:padding="8dp"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        android:id="@+id/alpha_animation"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="组合动画"
+        android:background="@drawable/text_yellow_bg"
+        android:padding="8dp"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:id="@+id/combination_animation"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="130dp"/>
+
+</LinearLayout>
