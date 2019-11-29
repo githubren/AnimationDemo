@@ -52,13 +52,25 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="组合动画"
+        android:text="组合动画1"
         android:background="@drawable/text_yellow_bg"
         android:padding="8dp"
         android:textSize="26sp"
         android:textColor="#000000"
-        android:id="@+id/combination_animation"
-        android:layout_marginTop="80dp"
+        android:id="@+id/combination_animation_together"
+        android:layout_marginTop="60dp"
         android:layout_marginLeft="130dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="组合动画2"
+        android:background="@drawable/text_yellow_bg"
+        android:padding="8dp"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:id="@+id/combination_animation_order"
+        android:layout_marginTop="60dp"
+        />
 
 </LinearLayout>
